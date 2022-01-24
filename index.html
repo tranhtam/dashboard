@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.js">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script>
+        var xValues = ["mon","tue","wed","thu","fri","sat","sun"];
+        
+        new Chart("myChart", {
+          type: "line",
+          data: {
+            labels: xValues,
+            datasets: [{ 
+              data: [0,1.5,2.5,1.2,4.6,3,2],
+              borderColor: "red",
+              fill: false    
+            }]
+          },
+          options: {
+            legend: {display: false}
+          }
+        });
+        </script> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="nav">
+            <a href="">
+                <ion-icon name="logo-foursquare"></ion-icon>
+            </a>
+            <div class="function">
+                <div>
+                    <a href="">
+                        <ion-icon name="home"></ion-icon>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <a href="">
+                <ion-icon name="log-out-outline"></ion-icon>
+            </a>
+        </div>
+
+        <div class="content">
+            <div class="content-left">
+                <div class="greeting">
+                    <div class="greeting-title">
+                        <h1>Hello Josh!</h1>
+                        <p>It's good to see you again.</p>
+                    </div>
+                    <div class="greeting-img">
+                        <img src="./img/Illustration.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="country">
+                        <div class="country-left">
+                            <div class="country-img">
+                                <img src="./img/Group 23.png" alt="">
+                            </div>
+                            <div class="country-title">
+                                <h4>Spanish B2</h4>
+                                <p>by Alejandro Velazquez</p>
+                            </div>
+                            <div class="country-circle">
+                                <span>83<span>%</span></span>
+                            </div>
+                            <div class="country-btn">
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="country-right">
+                            <div class="country-icon">
+                                <a href="">
+                                    <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                                </a>
+                            </div>
+                            <div class="country-icon">
+                                <a href="">
+                                    <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h2>Courses</h2>
+
+                <div class="selection">
+                    <div class="selection-name">
+                        <b>All Courses</b>
+                    </div>
+                    <div class="selection-name">
+                        <p>The Newest</p>
+                    </div>
+                    <div class="selection-name">
+                        <p>Top Rated</p>
+                    </div>
+                    <div class="selection-name">
+                        <p>Most Popular</p>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <div class="courses-img" style="padding: 5px 10px 1px;">
+                        <img src="./img/Frame.png" alt="">
+                    </div>
+                    <div class="courses-title">
+                        <h4>Learn Figma</h4>
+                        <p>by christopher Morgan</p>
+                    </div>
+                    <div class="courses-hours">
+                        <div class="courses-hours-img">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="course-hours-title">
+                            <p>6h 30min</p>
+                        </div>
+                    </div>
+                    <div class="courses-vote">
+                        <div class="courses-vote-img">
+                            <img src="./img/fire.png" alt="">
+                        </div>
+                        <div class="courses-vote-star">
+                            <p>4,9</p>
+                        </div>
+                    </div>
+                    <div class="courses-btn">
+                        <button>View courses</button>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <div class="courses-img">
+                        <img src="./img/Group 21.png" alt="">
+                    </div>
+                    <div class="courses-title">
+                        <h4>Learn Figma</h4>
+                        <p>by christopher Morgan</p>
+                    </div>
+                    <div class="courses-hours">
+                        <div class="courses-hours-img">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="course-hours-title">
+                            <p>6h 30min</p>
+                        </div>
+                    </div>
+                    <div class="courses-vote">
+                        <div class="courses-vote-img">
+                            <img src="./img/fire.png" alt="">
+                        </div>
+                        <div class="courses-vote-star">
+                            <p>4,9</p>
+                        </div>
+                    </div>
+                    <div class="courses-btn">
+                        <button>View courses</button>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <div class="courses-img">
+                        <img src="./img/image 15.png" alt="">
+                    </div>
+                    <div class="courses-title">
+                        <h4>Learn Figma</h4>
+                        <p>by christopher Morgan</p>
+                    </div>
+                    <div class="courses-hours">
+                        <div class="courses-hours-img">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="course-hours-title">
+                            <p>6h 30min</p>
+                        </div>
+                    </div>
+                    <div class="courses-vote">
+                        <div class="courses-vote-img">
+                            <img src="./img/fire.png" alt="">
+                        </div>
+                        <div class="courses-vote-star">
+                            <p>4,9</p>
+                        </div>
+                    </div>
+                    <div class="courses-btn">
+                        <button>View courses</button>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <div class="courses-img">
+                        <img src="./img/Group 18.png" alt="">
+                    </div>
+                    <div class="courses-title">
+                        <h4>Learn Figma</h4>
+                        <p>by christopher Morgan</p>
+                    </div>
+                    <div class="courses-hours">
+                        <div class="courses-hours-img">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="course-hours-title">
+                            <p>6h 30min</p>
+                        </div>
+                    </div>
+                    <div class="courses-vote">
+                        <div class="courses-vote-img">
+                            <img src="./img/fire.png" alt="">
+                        </div>
+                        <div class="courses-vote-star">
+                            <p>4,9</p>
+                        </div>
+                    </div>
+                    <div class="courses-btn">
+                        <button>View courses</button>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <div class="courses-img">
+                        <img src="./img/Group 40.png" alt="">
+                    </div>
+                    <div class="courses-title">
+                        <h4>Learn Figma</h4>
+                        <p>by christopher Morgan</p>
+                    </div>
+                    <div class="courses-hours">
+                        <div class="courses-hours-img">
+                            <img src="./img/Vector.png" alt="">
+                        </div>
+                        <div class="course-hours-title">
+                            <p>6h 30min</p>
+                        </div>
+                    </div>
+                    <div class="courses-vote">
+                        <div class="courses-vote-img">
+                            <img src="./img/fire.png" alt="">
+                        </div>
+                        <div class="courses-vote-star">
+                            <p>4,9</p>
+                        </div>
+                    </div>
+                    <div class="courses-btn">
+                        <button>View courses</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="content-right">
+                <div class="content-right-seach">
+                    <div class="content-right-seachit">
+                        <input type="seach">
+                    </div>
+                    <div class="content-right-seach-bell">
+                        <ion-icon name="notifications-outline"></ion-icon>
+                    </div>
+                    <div class="content-right-seach-img">
+                        <div class="content-right-seach-avata">
+                            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                                alt="">
+                        </div>
+                        <div class="content-right-seach-btn">
+                            <button>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-right-courses">
+                    <div class="content-right-courses-completed">
+                        <div class="content-right-courses-number">
+                            <h2>11</h2>
+                        </div>
+                        <div class="content-right-courses-title">
+                            <p>Courses completed</p>
+                        </div>
+                    </div>
+                    <div class="content-right-courses-completed">
+                        <div class="content-right-courses-number">
+                            <h2>4</h2>
+                        </div>
+                        <div class="content-right-courses-title">
+                            <p>Courses in progress</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Your statistics</h2>
+
+                <div class="content-right-calendar">
+                    <div class="content-right-calendar-title">
+                        <div class="content-right-calendar-courses">
+                            <div class="content-right-hours">
+                                <b>Learning Hours</b>
+                            </div>
+                            <div class="content-right-mycourses">
+                                <p>My Courses</p>
+                            </div>
+                        </div>
+
+                        <div class="content-right-calendar-weekly">
+                            <select name="example">
+                                <option value="weekly">Weekly</option>
+                                <option value="daily">Daily</option>
+                                <option value="monthly">Monthly</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right-chart">
+                    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                </div>
+                <div class="content-right-qc">
+                    <div class="content-right-qc-title">
+                        <h2>Lern even more!</h2>
+                        <p>Unlock premium feature only for $9.99 per month.</p>
+                        <button>Go Premium</button>
+                    </div>
+                    <div class="content-right-qc-img">
+                        <img src="./img/Group 48.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

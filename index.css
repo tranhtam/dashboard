@@ -1,0 +1,212 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    margin: 30px;
+    display: flex;
+}
+
+.nav {
+    display: grid;
+    justify-content: center;
+    width: 84px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(175, 174, 174);
+}
+
+.nav ion-icon {
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.function {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.content {
+    display: flex;
+}
+.content-left{
+    margin: 50px;
+}
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    padding: 0px 70px 0px 50px;
+    border-radius: 14px;
+}
+.greeting-title{
+    margin-right: 50px;
+}
+.greeting-title h1{
+    font-size: 25px;
+}
+.country,
+.country-left,
+.country-right,
+.selection,
+.courses,
+.courses-hours,
+.courses-vote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.country{
+    margin-top: 15px;
+}
+.country-left{
+    background-color: #F5F5F7;
+    height: 60px;
+    width: 400px;
+    border-radius: 14px;
+}
+.country-img{
+    margin-left: 5px;
+    background-color: white;
+    padding: 5px 5px 1px;
+    border-radius: 14px;
+}
+.country-btn button{
+    background: black;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+}
+.country-icon ion-icon{
+    font-size: 40px;
+    color: black;
+}
+.country-title h4, p{
+    margin: 0;
+}
+.courses-title h4, p{
+    margin: 0;
+}
+.selection p{
+    font-weight: bolder;
+    color: #000000;
+    opacity: 0.3;
+}
+.courses{
+    margin: 10px 0px;
+    background-color: #F5F5F7;
+    height: 60px;
+    border-radius: 14px;
+}
+.courses-img{
+    margin-left: 5px;
+    background-color: white;
+    padding: 5px 5px 1px;
+    border-radius: 14px;
+}
+.courses-btn button{
+    background: black;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.content-right-seach,
+.content-right-seach-img,
+.content-right-courses,
+.content-right-courses-completed,
+.content-right-calendar-title,
+.content-right-calendar-courses,
+.content-right-qc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-right {
+    margin: 50px 0px;
+}
+.content-right-seachit input {
+    width: 300px;
+    height: 40px;
+    left: 920.78px;
+    top: 55.25px;
+    background-color: #F5F5F7;
+    border-radius: 8px;
+    border: none;
+}
+.content-right-seach-bell ion-icon {
+    font-size: 20px;
+    margin: 0px 10px 0px 20px;
+}
+.content-right-seach-avata img {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+}
+.content-right-seach-btn button{
+    background-color: white;
+    border: none;
+}
+.content-right-courses-completed{
+    background-color: #F5F5F7;
+    width: 210px;
+    border-radius: 14px;
+    justify-content: center;
+    margin-right: 10px;
+}
+.content-right-courses-number h2{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 20px 0px;
+}
+.content-right-courses-title p{
+    width: 100px;
+}
+.content-right-hours b{
+    margin-right: 20px;
+}
+.content-right-mycourses p{
+    font-weight: bolder;
+    color: #000000;
+    opacity: 0.3;
+}
+.content-right-calendar-weekly select{
+    background-color: #F5F5F7;
+    border: none;
+    width: 88px;
+    height: 32px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bolder;
+}
+.content-right-qc{
+    background: #F5F5F7;
+    width: 400px;
+    height: 193px;
+    padding: 25px;
+    border-radius: 14px;
+}
+.content-right-qc-title{
+    width: 172px;
+    height: 180px;
+}
+.content-right-qc-title button{
+    background: black;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+}
