@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html,
 body {
     width: 100%;
@@ -6,15 +12,22 @@ body {
     padding: 0;
 }
 
+.mgr-7 {
+    margin-right: 7px !important;
+}
+
 .dashboard {
     margin: 30px;
     display: flex;
 }
 
 .nav {
-    display: grid;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 84px;
+    padding: 40px 42px;
     background-color: black;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(175, 174, 174);
@@ -45,13 +58,22 @@ body {
     background-color: #F5F5F7;
     padding: 0px 70px 0px 50px;
     border-radius: 14px;
+    height: 160px;
+    position: relative;
 }
+
 .greeting-title{
     margin-right: 50px;
 }
 .greeting-title h1{
     font-size: 25px;
 }
+
+.greeting-img {
+    position: relative;
+    top: -13px;
+}
+
 .country,
 .country-left,
 .country-right,
